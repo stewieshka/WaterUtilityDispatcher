@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WaterUtilityDispatcher.Domain.BrigadeRoot.Brigade">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="Brigade" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Domain\BrigadeRoot\Brigade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaterUtilityDispatcher.Domain.Common.EntityBase">
+    <Position X="14" Y="3.75" Width="1.5" />
+    <Members>
+      <Method Name="EntityBase" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Common\EntityBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaterUtilityDispatcher.Domain.IncidentRoot.Incident">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="Incident" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAECAAgAAAEAAAgAAAAAAAAAAADAQAAAAAAAAA=</HashCode>
+      <FileName>Domain\IncidentRoot\Incident.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaterUtilityDispatcher.Domain.UserMaterialRoot.UsedMaterial">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="UsedMaterial" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAIAAAAASAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\UserMaterialRoot\UsedMaterial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaterUtilityDispatcher.Domain.WorkerRoot.Worker">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="Worker" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAGAACAAAAAEAAAAQAAAAAAIIAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Domain\WorkerRoot\Worker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaterUtilityDispatcher.Domain.CustomTabPage&lt;T&gt;">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACAABEAAACAEBAAgAgQAMCAAAIEAAIAALAQ=</HashCode>
+      <FileName>Domain\CustomTabPage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WaterUtilityDispatcher.DeleteEntityForm">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGAAABAAABCAAAACAAAAAAAAAAAAkAAAgAA=</HashCode>
+      <FileName>DeleteEntityForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaterUtilityDispatcher.EntityForm">
+    <Position X="12.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAQAAAAAACAAAACAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>EntityForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaterUtilityDispatcher.MainForm">
+    <Position X="8.75" Y="3.75" Width="1.5" />
+    <Members>
+      <Field Name="button1" Hidden="true" />
+      <Method Name="button1_Click" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Method Name="button2_Click" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Method Name="button3_Click" Hidden="true" />
+      <Field Name="button4" Hidden="true" />
+      <Method Name="button4_Click" Hidden="true" />
+      <Field Name="button5" Hidden="true" />
+      <Method Name="button5_Click" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="DateDoTextBox" Hidden="true" />
+      <Field Name="DateOtTextBox" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="LocationTextBox" Hidden="true" />
+      <Field Name="MakeReport" Hidden="true" />
+      <Field Name="tabControl1" Hidden="true" />
+      <Field Name="tabPage1" Hidden="true" />
+      <Field Name="TypeTextBox" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAAJAAAACAIEADAMI4AAAAAHAMAAABBAA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaterUtilityDispatcher.Data.AppDbContext">
+    <Position X="10.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAQAAQAAAAAAgAAAAEAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Data\AppDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaterUtilityDispatcher.FormBuilder&lt;T&gt;">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="WaterUtilityDispatcher.FormBuilder&lt;T&gt;.MaterialAddedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>FormBuilder.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="WaterUtilityDispatcher.FormBuilder&lt;T&gt;.MaterialRemovedHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>FormBuilder.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAAACAAAAAAQACBAAgEAAAAIBEgQZAAAhAhABAkQAAA=</HashCode>
+      <FileName>FormBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="WaterUtilityDispatcher.Domain.IRefresh">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\IRefresh.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
